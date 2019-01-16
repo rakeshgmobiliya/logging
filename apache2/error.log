@@ -1,0 +1,4 @@
+[Wed Jan 16 00:06:41.945762 2019] [mpm_event:notice] [pid 1095:tid 140204164557760] AH00489: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Jan 16 00:06:41.945775 2019] [core:notice] [pid 1095:tid 140204164557760] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Jan 16 11:42:51.745107 2019] [mpm_event:notice] [pid 1146:tid 139919511624640] AH00489: Apache/2.4.29 (Ubuntu) configured -- resuming normal operations
+[Wed Jan 16 11:42:52.051201 2019] [core:notice] [pid 1146:tid 139919511624640] AH00094: Command line: '/usr/sbin/apache2'

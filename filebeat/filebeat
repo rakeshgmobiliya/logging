@@ -1,0 +1,2 @@
+2019-01-11T14:48:25.033+0530	INFO	instance/beat.go:592	Home path: [/usr/share/filebeat] Config path: [/etc/filebeat] Data path: [/var/lib/filebeat] Logs path: [/var/log/filebeat]
+2019-01-11T14:48:25.033+0530	INFO	instance/beat.go:599	Beat UUID: 4330e910-eb2d-4eb6-a978-8e5dc9687a8c

@@ -1,0 +1,196 @@
+Log started: 2019-01-12  06:52:00
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 166310 files and directories currently installed.)
+Preparing to unpack .../libexiv2-14_0.25-3.1ubuntu0.18.04.2_amd64.deb ...
+Unpacking libexiv2-14:amd64 (0.25-3.1ubuntu0.18.04.2) over (0.25-3.1ubuntu0.18.04.1) ...
+Setting up libexiv2-14:amd64 (0.25-3.1ubuntu0.18.04.2) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Log ended: 2019-01-12  06:52:05
+
+Log started: 2019-01-12  06:52:06
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 166310 files and directories currently installed.)
+Preparing to unpack .../libnss-myhostname_237-3ubuntu10.11_amd64.deb ...
+Unpacking libnss-myhostname:amd64 (237-3ubuntu10.11) over (237-3ubuntu10.9) ...
+Setting up libnss-myhostname:amd64 (237-3ubuntu10.11) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Log ended: 2019-01-12  06:52:11
+
+Log started: 2019-01-12  06:52:12
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 166310 files and directories currently installed.)
+Preparing to unpack .../netplan.io_0.40.1~18.04.4_amd64.deb ...
+Unpacking netplan.io (0.40.1~18.04.4) over (0.40.1~18.04.3) ...
+Setting up netplan.io (0.40.1~18.04.4) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Log ended: 2019-01-12  06:52:17
+
+Log started: 2019-01-12  06:52:18
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 166310 files and directories currently installed.)
+Preparing to unpack .../nplan_0.40.1~18.04.4_all.deb ...
+Unpacking nplan (0.40.1~18.04.4) over (0.40.1~18.04.3) ...
+Setting up nplan (0.40.1~18.04.4) ...
+Log ended: 2019-01-12  06:52:21
+
+Log started: 2019-01-12  06:52:22
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 166310 files and directories currently installed.)
+Preparing to unpack .../systemd-sysv_237-3ubuntu10.11_amd64.deb ...
+Unpacking systemd-sysv (237-3ubuntu10.11) over (237-3ubuntu10.9) ...
+Setting up systemd-sysv (237-3ubuntu10.11) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Log ended: 2019-01-12  06:52:28
+
+Log started: 2019-01-12  06:52:29
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 166310 files and directories currently installed.)
+Preparing to unpack .../gir1.2-webkit2-4.0_2.22.5-0ubuntu0.18.04.1_amd64.deb ...
+Unpacking gir1.2-webkit2-4.0:amd64 (2.22.5-0ubuntu0.18.04.1) over (2.22.4-0ubuntu0.18.04.1) ...
+Preparing to unpack .../gir1.2-javascriptcoregtk-4.0_2.22.5-0ubuntu0.18.04.1_amd64.deb ...
+Unpacking gir1.2-javascriptcoregtk-4.0:amd64 (2.22.5-0ubuntu0.18.04.1) over (2.22.4-0ubuntu0.18.04.1) ...
+Setting up gir1.2-javascriptcoregtk-4.0:amd64 (2.22.5-0ubuntu0.18.04.1) ...
+Setting up gir1.2-webkit2-4.0:amd64 (2.22.5-0ubuntu0.18.04.1) ...
+Log ended: 2019-01-12  06:52:32
+
+Log started: 2019-01-12  06:52:34
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 166310 files and directories currently installed.)
+Preparing to unpack .../libwebkit2gtk-4.0-37_2.22.5-0ubuntu0.18.04.1_amd64.deb ...
+Unpacking libwebkit2gtk-4.0-37:amd64 (2.22.5-0ubuntu0.18.04.1) over (2.22.4-0ubuntu0.18.04.1) ...
+Preparing to unpack .../libjavascriptcoregtk-4.0-18_2.22.5-0ubuntu0.18.04.1_amd64.deb ...
+Unpacking libjavascriptcoregtk-4.0-18:amd64 (2.22.5-0ubuntu0.18.04.1) over (2.22.4-0ubuntu0.18.04.1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Setting up libjavascriptcoregtk-4.0-18:amd64 (2.22.5-0ubuntu0.18.04.1) ...
+Setting up libwebkit2gtk-4.0-37:amd64 (2.22.5-0ubuntu0.18.04.1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Log ended: 2019-01-12  06:52:41
+
+Log started: 2019-01-12  06:52:42
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 166310 files and directories currently installed.)
+Preparing to unpack .../udev_237-3ubuntu10.11_amd64.deb ...
+Unpacking udev (237-3ubuntu10.11) over (237-3ubuntu10.9) ...
+Preparing to unpack .../libudev1_237-3ubuntu10.11_amd64.deb ...
+Unpacking libudev1:amd64 (237-3ubuntu10.11) over (237-3ubuntu10.9) ...
+Setting up libudev1:amd64 (237-3ubuntu10.11) ...
+Processing triggers for ureadahead (0.100.0-20) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Setting up udev (237-3ubuntu10.11) ...
+update-initramfs: deferring update (trigger activated)
+Processing triggers for systemd (237-3ubuntu10.9) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for initramfs-tools (0.130ubuntu3.6) ...
+update-initramfs: Generating /boot/initrd.img-4.15.0-43-generic
+Log ended: 2019-01-12  06:53:25
+
+Log started: 2019-01-12  06:53:26
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 166310 files and directories currently installed.)
+Preparing to unpack .../libnss-systemd_237-3ubuntu10.11_amd64.deb ...
+Unpacking libnss-systemd:amd64 (237-3ubuntu10.11) over (237-3ubuntu10.9) ...
+Preparing to unpack .../libpam-systemd_237-3ubuntu10.11_amd64.deb ...
+Unpacking libpam-systemd:amd64 (237-3ubuntu10.11) over (237-3ubuntu10.9) ...
+Preparing to unpack .../systemd_237-3ubuntu10.11_amd64.deb ...
+Unpacking systemd (237-3ubuntu10.11) over (237-3ubuntu10.9) ...
+Preparing to unpack .../libsystemd0_237-3ubuntu10.11_amd64.deb ...
+Unpacking libsystemd0:amd64 (237-3ubuntu10.11) over (237-3ubuntu10.9) ...
+Setting up libsystemd0:amd64 (237-3ubuntu10.11) ...
+Processing triggers for ureadahead (0.100.0-20) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Setting up systemd (237-3ubuntu10.11) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for dbus (1.12.2-1ubuntu1) ...
+Setting up libnss-systemd:amd64 (237-3ubuntu10.11) ...
+Setting up libpam-systemd:amd64 (237-3ubuntu10.11) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Log ended: 2019-01-12  06:53:41
+
+Log started: 2019-01-12  06:53:42
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 166310 files and directories currently installed.)
+Preparing to unpack .../00-gpg-wks-client_2.2.4-1ubuntu1.2_amd64.deb ...
+Unpacking gpg-wks-client (2.2.4-1ubuntu1.2) over (2.2.4-1ubuntu1.1) ...
+Preparing to unpack .../01-dirmngr_2.2.4-1ubuntu1.2_amd64.deb ...
+Unpacking dirmngr (2.2.4-1ubuntu1.2) over (2.2.4-1ubuntu1.1) ...
+Preparing to unpack .../02-gnupg-l10n_2.2.4-1ubuntu1.2_all.deb ...
+Unpacking gnupg-l10n (2.2.4-1ubuntu1.2) over (2.2.4-1ubuntu1.1) ...
+Preparing to unpack .../03-gpg_2.2.4-1ubuntu1.2_amd64.deb ...
+Unpacking gpg (2.2.4-1ubuntu1.2) over (2.2.4-1ubuntu1.1) ...
+Preparing to unpack .../04-gnupg-utils_2.2.4-1ubuntu1.2_amd64.deb ...
+Unpacking gnupg-utils (2.2.4-1ubuntu1.2) over (2.2.4-1ubuntu1.1) ...
+Preparing to unpack .../05-gpg-agent_2.2.4-1ubuntu1.2_amd64.deb ...
+Unpacking gpg-agent (2.2.4-1ubuntu1.2) over (2.2.4-1ubuntu1.1) ...
+Preparing to unpack .../06-gpgsm_2.2.4-1ubuntu1.2_amd64.deb ...
+Unpacking gpgsm (2.2.4-1ubuntu1.2) over (2.2.4-1ubuntu1.1) ...
+Preparing to unpack .../07-gpgconf_2.2.4-1ubuntu1.2_amd64.deb ...
+Unpacking gpgconf (2.2.4-1ubuntu1.2) over (2.2.4-1ubuntu1.1) ...
+Preparing to unpack .../08-gnupg_2.2.4-1ubuntu1.2_amd64.deb ...
+Unpacking gnupg (2.2.4-1ubuntu1.2) over (2.2.4-1ubuntu1.1) ...
+Preparing to unpack .../09-gpg-wks-server_2.2.4-1ubuntu1.2_amd64.deb ...
+Unpacking gpg-wks-server (2.2.4-1ubuntu1.2) over (2.2.4-1ubuntu1.1) ...
+Preparing to unpack .../10-gpgv_2.2.4-1ubuntu1.2_amd64.deb ...
+Unpacking gpgv (2.2.4-1ubuntu1.2) over (2.2.4-1ubuntu1.1) ...
+Setting up gpgv (2.2.4-1ubuntu1.2) ...
+Processing triggers for install-info (6.5.0.dfsg.1-2) ...
+Setting up gpgconf (2.2.4-1ubuntu1.2) ...
+Setting up gpg-agent (2.2.4-1ubuntu1.2) ...
+Setting up gnupg-l10n (2.2.4-1ubuntu1.2) ...
+Setting up gpgsm (2.2.4-1ubuntu1.2) ...
+Setting up gnupg-utils (2.2.4-1ubuntu1.2) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Setting up dirmngr (2.2.4-1ubuntu1.2) ...
+Setting up gpg (2.2.4-1ubuntu1.2) ...
+Setting up gpg-wks-server (2.2.4-1ubuntu1.2) ...
+Setting up gpg-wks-client (2.2.4-1ubuntu1.2) ...
+Setting up gnupg (2.2.4-1ubuntu1.2) ...
+Log ended: 2019-01-12  06:53:50
+
+Log started: 2019-01-15  07:00:14
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 166561 files and directories currently installed.)
+Preparing to unpack .../gir1.2-gnomebluetooth-1.0_3.28.0-2ubuntu0.1_amd64.deb ...
+Unpacking gir1.2-gnomebluetooth-1.0:amd64 (3.28.0-2ubuntu0.1) over (3.28.0-2) ...
+Setting up gir1.2-gnomebluetooth-1.0:amd64 (3.28.0-2ubuntu0.1) ...
+Log ended: 2019-01-15  07:00:18
+
+Log started: 2019-01-15  07:00:19
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 166561 files and directories currently installed.)
+Preparing to unpack .../gnome-bluetooth_3.28.0-2ubuntu0.1_amd64.deb ...
+Unpacking gnome-bluetooth (3.28.0-2ubuntu0.1) over (3.28.0-2) ...
+Processing triggers for mime-support (3.60ubuntu1) ...
+Processing triggers for desktop-file-utils (0.23-1ubuntu3.18.04.2) ...
+Setting up gnome-bluetooth (3.28.0-2ubuntu0.1) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for gnome-menus (3.13.3-11ubuntu1.1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Log ended: 2019-01-15  07:00:25
+
+Log started: 2019-01-15  07:00:27
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 166561 files and directories currently installed.)
+Preparing to unpack .../krb5-locales_1.16-2ubuntu0.1_all.deb ...
+Unpacking krb5-locales (1.16-2ubuntu0.1) over (1.16-2build1) ...
+Setting up krb5-locales (1.16-2ubuntu0.1) ...
+Log ended: 2019-01-15  07:00:29
+
+Log started: 2019-01-15  07:00:30
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 166561 files and directories currently installed.)
+Preparing to unpack .../libgnome-bluetooth13_3.28.0-2ubuntu0.1_amd64.deb ...
+Unpacking libgnome-bluetooth13:amd64 (3.28.0-2ubuntu0.1) over (3.28.0-2) ...
+Setting up libgnome-bluetooth13:amd64 (3.28.0-2ubuntu0.1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Log ended: 2019-01-15  07:00:33
+
+Log started: 2019-01-15  07:00:34
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 166561 files and directories currently installed.)
+Preparing to unpack .../libk5crypto3_1.16-2ubuntu0.1_amd64.deb ...
+Unpacking libk5crypto3:amd64 (1.16-2ubuntu0.1) over (1.16-2build1) ...
+Setting up libk5crypto3:amd64 (1.16-2ubuntu0.1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Log ended: 2019-01-15  07:00:41
+
+Log started: 2019-01-15  07:00:42
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 166561 files and directories currently installed.)
+Preparing to unpack .../libkrb5support0_1.16-2ubuntu0.1_amd64.deb ...
+Unpacking libkrb5support0:amd64 (1.16-2ubuntu0.1) over (1.16-2build1) ...
+Preparing to unpack .../libgssapi-krb5-2_1.16-2ubuntu0.1_amd64.deb ...
+Unpacking libgssapi-krb5-2:amd64 (1.16-2ubuntu0.1) over (1.16-2build1) ...
+Preparing to unpack .../libkrb5-3_1.16-2ubuntu0.1_amd64.deb ...
+Unpacking libkrb5-3:amd64 (1.16-2ubuntu0.1) over (1.16-2build1) ...
+Setting up libkrb5support0:amd64 (1.16-2ubuntu0.1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Setting up libkrb5-3:amd64 (1.16-2ubuntu0.1) ...
+Setting up libgssapi-krb5-2:amd64 (1.16-2ubuntu0.1) ...
+Processing triggers for libc-bin (2.27-3ubuntu1) ...
+Log ended: 2019-01-15  07:00:46
+

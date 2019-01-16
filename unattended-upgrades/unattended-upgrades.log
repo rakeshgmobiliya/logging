@@ -1,0 +1,62 @@
+2019-01-10 20:39:39,534 INFO Initial blacklisted packages: 
+2019-01-10 20:39:39,535 INFO Initial whitelisted packages: 
+2019-01-10 20:39:39,536 INFO Starting unattended upgrades script
+2019-01-10 20:39:39,536 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESM,a=bionic
+2019-01-11 06:14:23,205 INFO Initial blacklisted packages: 
+2019-01-11 06:14:23,216 INFO Initial whitelisted packages: 
+2019-01-11 06:14:23,216 INFO Starting unattended upgrades script
+2019-01-11 06:14:23,216 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESM,a=bionic
+2019-01-11 06:14:26,898 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2019-01-11 11:14:11,437 INFO Initial blacklisted packages: 
+2019-01-11 11:14:11,445 INFO Initial whitelisted packages: 
+2019-01-11 11:14:11,445 INFO Starting unattended upgrades script
+2019-01-11 11:14:11,445 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESM,a=bionic
+2019-01-12 06:51:33,454 INFO Initial blacklisted packages: 
+2019-01-12 06:51:33,468 INFO Initial whitelisted packages: 
+2019-01-12 06:51:33,468 INFO Starting unattended upgrades script
+2019-01-12 06:51:33,468 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESM,a=bionic
+2019-01-12 06:51:45,799 INFO Packages that will be upgraded: dirmngr gir1.2-javascriptcoregtk-4.0 gir1.2-webkit2-4.0 gnupg gnupg-l10n gnupg-utils gpg gpg-agent gpg-wks-client gpg-wks-server gpgconf gpgsm gpgv libexiv2-14 libjavascriptcoregtk-4.0-18 libnss-myhostname libnss-systemd libpam-systemd libsystemd0 libudev1 libwebkit2gtk-4.0-37 netplan.io nplan systemd systemd-sysv udev
+2019-01-12 06:51:45,799 INFO Writing dpkg log to /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2019-01-12 06:53:51,282 INFO All upgrades installed
+2019-01-12 06:54:13,056 INFO Initial blacklisted packages: 
+2019-01-12 06:54:13,061 INFO Initial whitelisted packages: 
+2019-01-12 06:54:13,061 INFO Starting unattended upgrades script
+2019-01-12 06:54:13,061 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESM,a=bionic
+2019-01-13 05:33:28,567 INFO Initial blacklisted packages: 
+2019-01-13 05:33:28,574 INFO Initial whitelisted packages: 
+2019-01-13 05:33:28,574 INFO Starting unattended upgrades script
+2019-01-13 05:33:28,574 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESM,a=bionic
+2019-01-13 06:10:33,516 INFO Initial blacklisted packages: 
+2019-01-13 06:10:33,516 INFO Initial whitelisted packages: 
+2019-01-13 06:10:33,517 INFO Starting unattended upgrades script
+2019-01-13 06:10:33,517 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESM,a=bionic
+2019-01-13 06:10:37,568 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2019-01-14 06:18:33,485 INFO Initial blacklisted packages: 
+2019-01-14 06:18:33,486 INFO Initial whitelisted packages: 
+2019-01-14 06:18:33,486 INFO Starting unattended upgrades script
+2019-01-14 06:18:33,486 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESM,a=bionic
+2019-01-14 06:18:37,136 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2019-01-14 10:18:58,738 INFO Initial blacklisted packages: 
+2019-01-14 10:18:58,739 INFO Initial whitelisted packages: 
+2019-01-14 10:18:58,739 INFO Starting unattended upgrades script
+2019-01-14 10:18:58,739 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESM,a=bionic
+2019-01-15 04:13:19,458 INFO Initial blacklisted packages: 
+2019-01-15 04:13:19,468 INFO Initial whitelisted packages: 
+2019-01-15 04:13:19,468 INFO Starting unattended upgrades script
+2019-01-15 04:13:19,468 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESM,a=bionic
+2019-01-15 07:00:04,573 INFO Initial blacklisted packages: 
+2019-01-15 07:00:04,574 INFO Initial whitelisted packages: 
+2019-01-15 07:00:04,574 INFO Starting unattended upgrades script
+2019-01-15 07:00:04,574 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESM,a=bionic
+2019-01-15 07:00:09,988 INFO Packages that will be upgraded: gir1.2-gnomebluetooth-1.0 gnome-bluetooth krb5-locales libgnome-bluetooth13 libgssapi-krb5-2 libk5crypto3 libkrb5-3 libkrb5support0
+2019-01-15 07:00:09,988 INFO Writing dpkg log to /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2019-01-15 07:00:46,615 INFO All upgrades installed
+2019-01-16 06:26:41,721 INFO Initial blacklisted packages: 
+2019-01-16 06:26:41,721 INFO Initial whitelisted packages: 
+2019-01-16 06:26:41,722 INFO Starting unattended upgrades script
+2019-01-16 06:26:41,722 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESM,a=bionic
+2019-01-16 06:26:45,233 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2019-01-16 11:32:06,701 INFO Initial blacklisted packages: 
+2019-01-16 11:32:06,770 INFO Initial whitelisted packages: 
+2019-01-16 11:32:06,770 INFO Starting unattended upgrades script
+2019-01-16 11:32:06,770 INFO Allowed origins are: o=Ubuntu,a=bionic, o=Ubuntu,a=bionic-security, o=UbuntuESM,a=bionic

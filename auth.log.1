@@ -1,0 +1,452 @@
+Jan 10 14:58:56 rakeshelk-VirtualBox systemd-logind[461]: New seat seat0.
+Jan 10 14:58:56 rakeshelk-VirtualBox systemd-logind[461]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 10 14:58:56 rakeshelk-VirtualBox systemd-logind[461]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 10 14:58:56 rakeshelk-VirtualBox systemd-logind[461]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan 10 14:59:03 rakeshelk-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Jan 10 14:59:03 rakeshelk-VirtualBox systemd-logind[461]: New session c1 of user gdm.
+Jan 10 14:59:03 rakeshelk-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Jan 10 14:59:06 rakeshelk-VirtualBox gnome-keyring-daemon[747]: couldn't access control socket: /run/user/121/keyring/control: No such file or directory
+Jan 10 14:59:19 rakeshelk-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.29 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Jan 10 14:59:37 rakeshelk-VirtualBox dbus-daemon[494]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jan 10 14:59:41 rakeshelk-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user rakesh-elk by (uid=0)
+Jan 10 14:59:41 rakeshelk-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user rakesh-elk by (uid=0)
+Jan 10 14:59:41 rakeshelk-VirtualBox systemd-logind[461]: New session 2 of user rakesh-elk.
+Jan 10 14:59:44 rakeshelk-VirtualBox gnome-keyring-daemon[1688]: The Secret Service was already initialized
+Jan 10 14:59:48 rakeshelk-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.75 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Jan 10 15:00:10 rakeshelk-VirtualBox dbus-daemon[494]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jan 10 15:00:55 rakeshelk-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 10 15:00:55 rakeshelk-VirtualBox pkexec[2872]: rakesh-elk: Executing command [USER=root] [TTY=unknown] [CWD=/home/rakesh-elk] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 10 15:01:12 rakeshelk-VirtualBox polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:rakesh-elk to gain ONE-SHOT authorization for action org.freedesktop.policykit.exec for unix-process:2799:11183 [/bin/sh /media/rakesh-elk/VBox_GAs_6.0.0/runasroot.sh --has-terminal VirtualBox Guest Additions installation /bin/sh /media/rakesh\-elk/VBox\_GAs\_6\.0\.0/VBoxLinuxAdditions\.run --xwin Please try running "/media/rakesh-elk/VBox_GAs_6.0.0/VBoxLinuxAdditions.run" manually.] (owned by unix-user:rakesh-elk)
+Jan 10 15:01:12 rakeshelk-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 10 15:01:12 rakeshelk-VirtualBox pkexec[2804]: rakesh-elk: Executing command [USER=root] [TTY=/dev/pts/0] [CWD=/media/rakesh-elk/VBox_GAs_6.0.0] [COMMAND=/bin/sh /media/rakesh-elk/VBox_GAs_6.0.0/VBoxLinuxAdditions.run --xwin]
+Jan 10 15:01:25 rakeshelk-VirtualBox useradd[3152]: new user: name=vboxadd, UID=999, GID=1, home=/var/run/vboxadd, shell=/bin/false
+Jan 10 15:01:25 rakeshelk-VirtualBox useradd[3158]: failed adding user 'vboxadd', data deleted
+Jan 10 15:01:25 rakeshelk-VirtualBox groupadd[3166]: group added to /etc/group: name=vboxsf, GID=999
+Jan 10 15:01:25 rakeshelk-VirtualBox groupadd[3166]: group added to /etc/gshadow: name=vboxsf
+Jan 10 15:01:25 rakeshelk-VirtualBox groupadd[3166]: new group: name=vboxsf, GID=999
+Jan 10 15:01:26 rakeshelk-VirtualBox useradd[3186]: failed adding user 'vboxadd', data deleted
+Jan 10 15:01:26 rakeshelk-VirtualBox useradd[3187]: failed adding user 'vboxadd', data deleted
+Jan 10 15:01:29 rakeshelk-VirtualBox useradd[3366]: failed adding user 'vboxadd', data deleted
+Jan 10 15:01:29 rakeshelk-VirtualBox useradd[3367]: failed adding user 'vboxadd', data deleted
+Jan 10 15:03:29 rakeshelk-VirtualBox polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:rakesh-elk to gain TEMPORARY authorization for action org.debian.apt.install-or-remove-packages for system-bus-name::1.111 [/usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map] (owned by unix-user:rakesh-elk)
+Jan 10 15:12:51 rakeshelk-VirtualBox useradd[3703]: failed adding user 'vboxadd', data deleted
+Jan 10 15:12:51 rakeshelk-VirtualBox useradd[3704]: failed adding user 'vboxadd', data deleted
+Jan 10 15:14:48 rakeshelk-VirtualBox sudo: rakesh-elk : TTY=pts/1 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/bin/su
+Jan 10 15:14:48 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 10 15:14:48 rakeshelk-VirtualBox su[11649]: Successful su for root by root
+Jan 10 15:14:48 rakeshelk-VirtualBox su[11649]: + /dev/pts/1 root:root
+Jan 10 15:14:48 rakeshelk-VirtualBox su[11649]: pam_unix(su:session): session opened for user root by (uid=0)
+Jan 10 15:14:48 rakeshelk-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jan 10 15:14:49 rakeshelk-VirtualBox systemd-logind[461]: New session 3 of user root.
+Jan 10 15:15:53 rakeshelk-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 10 15:15:53 rakeshelk-VirtualBox pkexec[11678]: rakesh-elk: Executing command [USER=root] [TTY=unknown] [CWD=/home/rakesh-elk] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 10 15:17:01 rakeshelk-VirtualBox CRON[12566]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 10 15:17:02 rakeshelk-VirtualBox CRON[12566]: pam_unix(cron:session): session closed for user root
+Jan 10 15:18:53 rakeshelk-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 10 15:18:53 rakeshelk-VirtualBox pkexec[12576]: rakesh-elk: Executing command [USER=root] [TTY=unknown] [CWD=/home/rakesh-elk] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 10 15:25:09 rakeshelk-VirtualBox gnome-keyring-daemon[1688]: couldn't initialize slot with master password: The password or PIN is incorrect
+Jan 10 15:25:09 rakeshelk-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Jan 10 15:27:52 rakeshelk-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 10 15:27:52 rakeshelk-VirtualBox pkexec[21048]: rakesh-elk: Executing command [USER=root] [TTY=unknown] [CWD=/home/rakesh-elk] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 10 15:28:51 rakeshelk-VirtualBox useradd[22253]: new user: name=sshd, UID=122, GID=65534, home=/run/sshd, shell=/usr/sbin/nologin
+Jan 10 15:28:51 rakeshelk-VirtualBox usermod[22259]: change user 'sshd' password
+Jan 10 15:28:51 rakeshelk-VirtualBox chage[22264]: changed password expiry for sshd
+Jan 10 15:28:53 rakeshelk-VirtualBox sshd[22345]: Server listening on 0.0.0.0 port 22.
+Jan 10 15:28:53 rakeshelk-VirtualBox sshd[22345]: Server listening on :: port 22.
+Jan 10 15:30:52 rakeshelk-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 10 15:30:52 rakeshelk-VirtualBox pkexec[22420]: rakesh-elk: Executing command [USER=root] [TTY=unknown] [CWD=/home/rakesh-elk] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 10 15:41:57 rakeshelk-VirtualBox sshd[22345]: Received SIGHUP; restarting.
+Jan 10 15:41:57 rakeshelk-VirtualBox sshd[22345]: Server listening on 0.0.0.0 port 22.
+Jan 10 15:41:57 rakeshelk-VirtualBox sshd[22345]: Server listening on :: port 22.
+Jan 10 15:41:57 rakeshelk-VirtualBox sshd[22345]: Received SIGHUP; restarting.
+Jan 10 15:41:57 rakeshelk-VirtualBox sshd[22345]: Server listening on 0.0.0.0 port 22.
+Jan 10 15:41:57 rakeshelk-VirtualBox sshd[22345]: Server listening on :: port 22.
+Jan 10 15:42:03 rakeshelk-VirtualBox su[11649]: pam_unix(su:session): session closed for user root
+Jan 10 15:42:03 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 15:42:03 rakeshelk-VirtualBox systemd-logind[461]: Removed session 3.
+Jan 10 15:42:03 rakeshelk-VirtualBox systemd: pam_unix(systemd-user:session): session closed for user root
+Jan 10 15:42:12 rakeshelk-VirtualBox systemd-logind[461]: System is rebooting.
+Jan 10 15:42:56 rakeshelk-VirtualBox systemd-logind[550]: New seat seat0.
+Jan 10 15:42:56 rakeshelk-VirtualBox systemd-logind[550]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 10 15:42:56 rakeshelk-VirtualBox systemd-logind[550]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 10 15:42:56 rakeshelk-VirtualBox systemd-logind[550]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan 10 15:43:03 rakeshelk-VirtualBox sshd[728]: Server listening on 0.0.0.0 port 22.
+Jan 10 15:43:03 rakeshelk-VirtualBox sshd[728]: Server listening on :: port 22.
+Jan 10 15:43:05 rakeshelk-VirtualBox sshd[728]: Received SIGHUP; restarting.
+Jan 10 15:43:05 rakeshelk-VirtualBox sshd[728]: Server listening on 0.0.0.0 port 22.
+Jan 10 15:43:05 rakeshelk-VirtualBox sshd[728]: Server listening on :: port 22.
+Jan 10 15:43:18 rakeshelk-VirtualBox useradd[824]: failed adding user 'vboxadd', data deleted
+Jan 10 15:43:18 rakeshelk-VirtualBox useradd[825]: failed adding user 'vboxadd', data deleted
+Jan 10 15:43:21 rakeshelk-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Jan 10 15:43:21 rakeshelk-VirtualBox systemd-logind[550]: New session c1 of user gdm.
+Jan 10 15:43:22 rakeshelk-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Jan 10 15:43:32 rakeshelk-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Jan 10 15:43:53 rakeshelk-VirtualBox dbus-daemon[555]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jan 10 15:44:18 rakeshelk-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user rakesh-elk by (uid=0)
+Jan 10 15:44:18 rakeshelk-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user rakesh-elk by (uid=0)
+Jan 10 15:44:18 rakeshelk-VirtualBox systemd-logind[550]: New session 2 of user rakesh-elk.
+Jan 10 15:44:22 rakeshelk-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Jan 10 15:44:46 rakeshelk-VirtualBox dbus-daemon[555]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jan 10 15:47:15 rakeshelk-VirtualBox sshd[1776]: Connection closed by 10.9.44.1 port 53987 [preauth]
+Jan 10 15:47:36 rakeshelk-VirtualBox sshd[1778]: Accepted password for rakesh-elk from 10.9.44.1 port 53990 ssh2
+Jan 10 15:47:36 rakeshelk-VirtualBox sshd[1778]: pam_unix(sshd:session): session opened for user rakesh-elk by (uid=0)
+Jan 10 15:47:36 rakeshelk-VirtualBox systemd-logind[550]: New session 4 of user rakesh-elk.
+Jan 10 15:48:12 rakeshelk-VirtualBox sudo: pam_unix(sudo:auth): authentication failure; logname=rakesh-elk uid=1000 euid=0 tty=/dev/pts/1 ruser=rakesh-elk rhost=  user=rakesh-elk
+Jan 10 15:48:18 rakeshelk-VirtualBox sudo: rakesh-elk : TTY=pts/1 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/bin/su
+Jan 10 15:48:18 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 15:48:18 rakeshelk-VirtualBox su[1883]: Successful su for root by root
+Jan 10 15:48:18 rakeshelk-VirtualBox su[1883]: + /dev/pts/1 root:root
+Jan 10 15:48:18 rakeshelk-VirtualBox su[1883]: pam_unix(su:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 15:48:18 rakeshelk-VirtualBox su[1883]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jan 10 15:49:23 rakeshelk-VirtualBox sudo:     root : TTY=pts/1 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/usr/bin/curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-Linux-x86_64 -o /usr/local/bin/docker-compose
+Jan 10 15:49:23 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 15:49:36 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 15:49:46 rakeshelk-VirtualBox sudo:     root : TTY=pts/1 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/bin/chmod +x /usr/local/bin/docker-compose
+Jan 10 15:49:46 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 15:49:46 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 15:51:25 rakeshelk-VirtualBox sudo:     root : TTY=pts/1 ; PWD=/home/rakesh-elk/docker-elk ; USER=root ; COMMAND=/usr/bin/apt update
+Jan 10 15:51:25 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 15:51:34 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 15:51:40 rakeshelk-VirtualBox sudo:     root : TTY=pts/1 ; PWD=/home/rakesh-elk/docker-elk ; USER=root ; COMMAND=/usr/bin/apt install apt-transport-https ca-certificates curl software-properties-common
+Jan 10 15:51:40 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 15:51:44 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 15:51:48 rakeshelk-VirtualBox sudo:     root : TTY=pts/1 ; PWD=/home/rakesh-elk/docker-elk ; USER=root ; COMMAND=/usr/bin/apt-key add -
+Jan 10 15:51:48 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 15:51:49 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 15:51:53 rakeshelk-VirtualBox sudo:     root : TTY=pts/1 ; PWD=/home/rakesh-elk/docker-elk ; USER=root ; COMMAND=/usr/bin/add-apt-repository deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable
+Jan 10 15:51:53 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 15:52:02 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 15:52:03 rakeshelk-VirtualBox sudo:     root : TTY=pts/1 ; PWD=/home/rakesh-elk/docker-elk ; USER=root ; COMMAND=/usr/bin/apt update
+Jan 10 15:52:03 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 15:52:07 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 15:53:46 rakeshelk-VirtualBox groupadd[5436]: group added to /etc/group: name=docker, GID=127
+Jan 10 15:53:46 rakeshelk-VirtualBox groupadd[5436]: group added to /etc/gshadow: name=docker
+Jan 10 15:53:46 rakeshelk-VirtualBox groupadd[5436]: new group: name=docker, GID=127
+Jan 10 15:53:49 rakeshelk-VirtualBox sshd[728]: Received SIGHUP; restarting.
+Jan 10 15:53:49 rakeshelk-VirtualBox sshd[728]: Server listening on 0.0.0.0 port 22.
+Jan 10 15:53:49 rakeshelk-VirtualBox sshd[728]: Server listening on :: port 22.
+Jan 10 15:54:09 rakeshelk-VirtualBox sshd[728]: Received SIGHUP; restarting.
+Jan 10 15:54:09 rakeshelk-VirtualBox sshd[728]: Server listening on 0.0.0.0 port 22.
+Jan 10 15:54:09 rakeshelk-VirtualBox sshd[728]: Server listening on :: port 22.
+Jan 10 15:58:24 rakeshelk-VirtualBox sshd[9095]: Accepted password for rakesh-elk from 10.9.44.1 port 54168 ssh2
+Jan 10 15:58:24 rakeshelk-VirtualBox sshd[9095]: pam_unix(sshd:session): session opened for user rakesh-elk by (uid=0)
+Jan 10 15:58:24 rakeshelk-VirtualBox systemd-logind[550]: New session 5 of user rakesh-elk.
+Jan 10 15:58:36 rakeshelk-VirtualBox sudo: rakesh-elk : TTY=pts/2 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/bin/su
+Jan 10 15:58:36 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 15:58:36 rakeshelk-VirtualBox su[9224]: Successful su for root by root
+Jan 10 15:58:36 rakeshelk-VirtualBox su[9224]: + /dev/pts/2 root:root
+Jan 10 15:58:36 rakeshelk-VirtualBox su[9224]: pam_unix(su:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 15:58:36 rakeshelk-VirtualBox su[9224]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jan 10 16:17:02 rakeshelk-VirtualBox CRON[9348]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 10 16:17:02 rakeshelk-VirtualBox CRON[9348]: pam_unix(cron:session): session closed for user root
+Jan 10 17:17:01 rakeshelk-VirtualBox CRON[10540]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 10 17:17:01 rakeshelk-VirtualBox CRON[10540]: pam_unix(cron:session): session closed for user root
+Jan 10 17:24:36 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/usr/bin/dpkg -i filebeat-6.2.3-amd64.deb
+Jan 10 17:24:36 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:24:36 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:24:54 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/usr/bin/dpkg -i filebeat-6.5.4-amd64.deb
+Jan 10 17:24:54 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:24:58 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:30:23 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/bin/filebeat modules enable system
+Jan 10 17:30:23 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:30:23 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:30:29 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/bin/filebeat setup
+Jan 10 17:30:29 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:30:35 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:31:10 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/bin/filebeat setup
+Jan 10 17:31:10 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:31:45 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:34:48 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/etc/filebeat/filebeat-6.2.3-darwin-x86_64 ; USER=root ; COMMAND=/usr/bin/dpkg -r filebeat-6.5.3-darwin-x86.deb
+Jan 10 17:34:48 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:34:48 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:35:15 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/usr/bin/dpkg -r filebeat-6.5.4-amd64.deb
+Jan 10 17:35:15 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:35:15 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:35:36 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/usr/bin/dpkg -r filebeat-6.5.4-amd64.deb
+Jan 10 17:35:36 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:35:36 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:35:39 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/usr/bin/dpkg -r filebeat-6.5.4-amd64.deb less
+Jan 10 17:35:39 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:35:39 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:35:56 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/usr/bin/dpkg --purge filebeat-6.5.4-amd64.deb
+Jan 10 17:35:56 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:35:56 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:36:04 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/usr/bin/dpkg-deb --purge filebeat-6.5.4-amd64.deb
+Jan 10 17:36:04 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:36:04 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:36:50 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/usr/bin/dpkg -r filebeat-6.5.4-amd64.deb -a
+Jan 10 17:36:50 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:36:50 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:36:54 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/usr/bin/dpkg -r filebeat-6.5.4-amd64.deb -force
+Jan 10 17:36:54 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:36:54 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:36:59 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/usr/bin/dpkg -r filebeat-6.5.4-amd64.deb --force
+Jan 10 17:36:59 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:36:59 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:37:02 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/usr/bin/dpkg -r filebeat-6.5.4-amd64.deb
+Jan 10 17:37:02 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:37:02 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:37:07 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/usr/bin/dpkg -R filebeat-6.5.4-amd64.deb
+Jan 10 17:37:07 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:37:07 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:37:14 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/usr/bin/dpkg -P filebeat-6.5.4-amd64.deb
+Jan 10 17:37:14 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:37:14 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:37:18 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/usr/bin/dpkg -p filebeat-6.5.4-amd64.deb
+Jan 10 17:37:18 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:37:18 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:39:19 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/etc/filebeat/filebeat-6.2.3-darwin-x86_64 ; USER=root ; COMMAND=/usr/bin/filebeat modules enable system
+Jan 10 17:39:19 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:39:19 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:39:42 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/etc/filebeat/filebeat-6.2.3-darwin-x86_64 ; USER=root ; COMMAND=/usr/bin/filebeat setup
+Jan 10 17:39:42 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:39:42 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:41:09 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/bin/filebeat modules enable system
+Jan 10 17:41:09 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:41:09 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 17:41:15 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/bin/filebeat setup
+Jan 10 17:41:15 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 10 17:41:46 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 10 18:17:01 rakeshelk-VirtualBox CRON[11336]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 10 18:17:01 rakeshelk-VirtualBox CRON[11336]: pam_unix(cron:session): session closed for user root
+Jan 10 19:17:01 rakeshelk-VirtualBox CRON[11570]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 10 19:17:01 rakeshelk-VirtualBox CRON[11570]: pam_unix(cron:session): session closed for user root
+Jan 10 20:17:01 rakeshelk-VirtualBox CRON[11774]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 10 20:17:01 rakeshelk-VirtualBox CRON[11774]: pam_unix(cron:session): session closed for user root
+Jan 10 21:17:01 rakeshelk-VirtualBox CRON[13217]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 10 21:17:01 rakeshelk-VirtualBox CRON[13217]: pam_unix(cron:session): session closed for user root
+Jan 10 22:17:01 rakeshelk-VirtualBox CRON[13423]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 10 22:17:01 rakeshelk-VirtualBox CRON[13423]: pam_unix(cron:session): session closed for user root
+Jan 10 23:17:01 rakeshelk-VirtualBox CRON[13627]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 10 23:17:01 rakeshelk-VirtualBox CRON[13627]: pam_unix(cron:session): session closed for user root
+Jan 11 00:17:01 rakeshelk-VirtualBox CRON[13931]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 00:17:01 rakeshelk-VirtualBox CRON[13931]: pam_unix(cron:session): session closed for user root
+Jan 11 01:17:01 rakeshelk-VirtualBox CRON[13984]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 01:17:01 rakeshelk-VirtualBox CRON[13984]: pam_unix(cron:session): session closed for user root
+Jan 11 02:17:01 rakeshelk-VirtualBox CRON[14030]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 02:17:01 rakeshelk-VirtualBox CRON[14030]: pam_unix(cron:session): session closed for user root
+Jan 11 02:23:01 rakeshelk-VirtualBox CRON[14038]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 02:23:01 rakeshelk-VirtualBox CRON[14038]: pam_unix(cron:session): session closed for user root
+Jan 11 03:17:01 rakeshelk-VirtualBox CRON[14248]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 03:17:01 rakeshelk-VirtualBox CRON[14248]: pam_unix(cron:session): session closed for user root
+Jan 11 04:17:01 rakeshelk-VirtualBox CRON[14372]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 04:17:01 rakeshelk-VirtualBox CRON[14372]: pam_unix(cron:session): session closed for user root
+Jan 11 05:17:01 rakeshelk-VirtualBox CRON[14419]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 05:17:01 rakeshelk-VirtualBox CRON[14419]: pam_unix(cron:session): session closed for user root
+Jan 11 06:17:01 rakeshelk-VirtualBox CRON[14557]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 06:17:01 rakeshelk-VirtualBox CRON[14557]: pam_unix(cron:session): session closed for user root
+Jan 11 06:25:01 rakeshelk-VirtualBox CRON[14565]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 06:25:01 rakeshelk-VirtualBox CRON[14565]: pam_unix(cron:session): session closed for user root
+Jan 11 07:17:01 rakeshelk-VirtualBox CRON[14621]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 07:17:01 rakeshelk-VirtualBox CRON[14621]: pam_unix(cron:session): session closed for user root
+Jan 11 07:30:01 rakeshelk-VirtualBox CRON[14633]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 07:30:01 rakeshelk-VirtualBox CRON[14633]: pam_unix(cron:session): session closed for user root
+Jan 11 08:17:01 rakeshelk-VirtualBox CRON[14707]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 08:17:01 rakeshelk-VirtualBox CRON[14707]: pam_unix(cron:session): session closed for user root
+Jan 11 09:17:01 rakeshelk-VirtualBox CRON[14752]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 09:17:01 rakeshelk-VirtualBox CRON[14752]: pam_unix(cron:session): session closed for user root
+Jan 11 10:17:01 rakeshelk-VirtualBox CRON[14799]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 10:17:01 rakeshelk-VirtualBox CRON[14799]: pam_unix(cron:session): session closed for user root
+Jan 11 11:15:28 rakeshelk-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 11 11:15:28 rakeshelk-VirtualBox pkexec[15364]: rakesh-elk: Executing command [USER=root] [TTY=unknown] [CWD=/home/rakesh-elk] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 11 11:17:01 rakeshelk-VirtualBox CRON[15379]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 11:17:01 rakeshelk-VirtualBox CRON[15379]: pam_unix(cron:session): session closed for user root
+Jan 11 12:17:01 rakeshelk-VirtualBox CRON[15498]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 12:17:01 rakeshelk-VirtualBox CRON[15498]: pam_unix(cron:session): session closed for user root
+Jan 11 12:32:40 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/etc/filebeat/module ; USER=root ; COMMAND=/usr/bin/filebeat modules enable system
+Jan 11 12:32:40 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 11 12:32:40 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 11 12:40:10 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/dpkg -i filebeat-6.2.3-amd64.deb
+Jan 11 12:40:10 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 11 12:41:36 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 11 12:54:30 rakeshelk-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 11 12:54:30 rakeshelk-VirtualBox pkexec[15765]: rakesh-elk: Executing command [USER=root] [TTY=unknown] [CWD=/home/rakesh-elk] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 11 13:17:01 rakeshelk-VirtualBox CRON[15851]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 13:17:01 rakeshelk-VirtualBox CRON[15851]: pam_unix(cron:session): session closed for user root
+Jan 11 14:17:01 rakeshelk-VirtualBox CRON[15939]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 14:17:01 rakeshelk-VirtualBox CRON[15939]: pam_unix(cron:session): session closed for user root
+Jan 11 14:39:28 rakeshelk-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 11 14:39:28 rakeshelk-VirtualBox pkexec[16118]: rakesh-elk: Executing command [USER=root] [TTY=unknown] [CWD=/home/rakesh-elk] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 11 14:46:17 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/apt-key add -
+Jan 11 14:46:17 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 11 14:46:19 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 11 14:46:23 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/apt-get install apt-transport-https
+Jan 11 14:46:23 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 11 14:46:24 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 11 14:46:28 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/tee -a /etc/apt/sources.list.d/elastic-6.x.list
+Jan 11 14:46:28 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 11 14:46:28 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 11 14:46:33 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jan 11 14:46:33 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 11 14:46:46 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 11 14:46:46 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/apt-get install filebeat
+Jan 11 14:46:46 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 11 14:47:51 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 11 14:48:28 rakeshelk-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 11 14:48:28 rakeshelk-VirtualBox pkexec[16932]: rakesh-elk: Executing command [USER=root] [TTY=unknown] [CWD=/home/rakesh-elk] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 11 14:48:58 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jan 11 14:48:58 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 11 14:49:02 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 11 14:49:02 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/bin/apt-get install filebeat
+Jan 11 14:49:02 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 11 14:49:03 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 11 14:49:20 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/sbin/update-rc.d filebeat defaults 95 10
+Jan 11 14:49:20 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 11 14:49:20 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 11 14:51:28 rakeshelk-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 11 14:51:28 rakeshelk-VirtualBox pkexec[17427]: rakesh-elk: Executing command [USER=root] [TTY=unknown] [CWD=/home/rakesh-elk] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 11 15:17:01 rakeshelk-VirtualBox CRON[17467]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 15:17:01 rakeshelk-VirtualBox CRON[17467]: pam_unix(cron:session): session closed for user root
+Jan 11 15:17:01 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/bin/apt-get update
+Jan 11 15:17:01 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 11 15:17:12 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 11 15:17:34 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/usr/bin/dpkg -i elasticsearch-2.3.1.deb
+Jan 11 15:17:34 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 11 15:17:35 rakeshelk-VirtualBox groupadd[17892]: group added to /etc/group: name=elasticsearch, GID=128
+Jan 11 15:17:35 rakeshelk-VirtualBox groupadd[17892]: group added to /etc/gshadow: name=elasticsearch
+Jan 11 15:17:35 rakeshelk-VirtualBox groupadd[17892]: new group: name=elasticsearch, GID=128
+Jan 11 15:17:36 rakeshelk-VirtualBox useradd[17898]: new user: name=elasticsearch, UID=123, GID=128, home=/home/elasticsearch, shell=/bin/false
+Jan 11 15:17:36 rakeshelk-VirtualBox usermod[17904]: change user 'elasticsearch' password
+Jan 11 15:17:36 rakeshelk-VirtualBox chage[17909]: changed password expiry for elasticsearch
+Jan 11 15:17:38 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 11 15:17:52 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/bin/systemctl enable elasticsearch.service
+Jan 11 15:17:52 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 11 15:17:53 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 11 15:18:26 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/bin/nano /etc/elasticsearch/elasticsearch.yml
+Jan 11 15:18:26 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 11 15:18:29 rakeshelk-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 11 15:18:29 rakeshelk-VirtualBox pkexec[18017]: rakesh-elk: Executing command [USER=root] [TTY=unknown] [CWD=/home/rakesh-elk] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 11 15:19:05 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 11 15:19:47 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/etc/filebeat ; USER=root ; COMMAND=/bin/systemctl start elasticsearch
+Jan 11 15:19:47 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 11 15:19:47 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 11 15:20:48 rakeshelk-VirtualBox sudo:     root : TTY=pts/2 ; PWD=/etc ; USER=root ; COMMAND=/usr/bin/dpkg -r elasticsearch/
+Jan 11 15:20:48 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 11 15:20:48 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 11 15:39:28 rakeshelk-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 11 15:39:28 rakeshelk-VirtualBox pkexec[21236]: rakesh-elk: Executing command [USER=root] [TTY=unknown] [CWD=/home/rakesh-elk] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 11 16:17:01 rakeshelk-VirtualBox CRON[21312]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 16:17:01 rakeshelk-VirtualBox CRON[21312]: pam_unix(cron:session): session closed for user root
+Jan 11 17:17:01 rakeshelk-VirtualBox CRON[21439]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 17:17:01 rakeshelk-VirtualBox CRON[21439]: pam_unix(cron:session): session closed for user root
+Jan 11 17:52:59 rakeshelk-VirtualBox sshd[9095]: pam_unix(sshd:session): session closed for user rakesh-elk
+Jan 11 17:52:59 rakeshelk-VirtualBox sshd[9095]: pam_systemd(sshd:session): Failed to release session: Interrupted system call
+Jan 11 17:52:59 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session closed for user root
+Jan 11 17:54:12 rakeshelk-VirtualBox systemd-logind[557]: New seat seat0.
+Jan 11 17:54:12 rakeshelk-VirtualBox systemd-logind[557]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan 11 17:54:12 rakeshelk-VirtualBox systemd-logind[557]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan 11 17:54:12 rakeshelk-VirtualBox systemd-logind[557]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan 11 17:54:22 rakeshelk-VirtualBox sshd[992]: Server listening on 0.0.0.0 port 22.
+Jan 11 17:54:22 rakeshelk-VirtualBox sshd[992]: Server listening on :: port 22.
+Jan 11 17:54:27 rakeshelk-VirtualBox sshd[992]: Received SIGHUP; restarting.
+Jan 11 17:54:27 rakeshelk-VirtualBox sshd[992]: Server listening on 0.0.0.0 port 22.
+Jan 11 17:54:27 rakeshelk-VirtualBox sshd[992]: Server listening on :: port 22.
+Jan 11 17:54:27 rakeshelk-VirtualBox sshd[992]: Received SIGHUP; restarting.
+Jan 11 17:54:27 rakeshelk-VirtualBox sshd[992]: Server listening on 0.0.0.0 port 22.
+Jan 11 17:54:27 rakeshelk-VirtualBox sshd[992]: Server listening on :: port 22.
+Jan 11 17:54:43 rakeshelk-VirtualBox useradd[1475]: failed adding user 'vboxadd', data deleted
+Jan 11 17:54:44 rakeshelk-VirtualBox useradd[1477]: failed adding user 'vboxadd', data deleted
+Jan 11 17:54:46 rakeshelk-VirtualBox gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=0)
+Jan 11 17:54:46 rakeshelk-VirtualBox systemd-logind[557]: New session c1 of user gdm.
+Jan 11 17:54:46 rakeshelk-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user gdm by (uid=0)
+Jan 11 17:54:57 rakeshelk-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.41 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Jan 11 17:55:18 rakeshelk-VirtualBox dbus-daemon[574]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jan 11 17:55:40 rakeshelk-VirtualBox gdm-password]: pam_unix(gdm-password:session): session opened for user rakesh-elk by (uid=0)
+Jan 11 17:55:40 rakeshelk-VirtualBox systemd: pam_unix(systemd-user:session): session opened for user rakesh-elk by (uid=0)
+Jan 11 17:55:40 rakeshelk-VirtualBox systemd-logind[557]: New session 2 of user rakesh-elk.
+Jan 11 17:55:46 rakeshelk-VirtualBox polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.83 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IN)
+Jan 11 17:55:57 rakeshelk-VirtualBox sshd[2497]: Accepted password for rakesh-elk from 10.9.44.1 port 58185 ssh2
+Jan 11 17:55:57 rakeshelk-VirtualBox sshd[2497]: pam_unix(sshd:session): session opened for user rakesh-elk by (uid=0)
+Jan 11 17:55:57 rakeshelk-VirtualBox systemd-logind[557]: New session 4 of user rakesh-elk.
+Jan 11 17:56:07 rakeshelk-VirtualBox sudo: rakesh-elk : TTY=pts/0 ; PWD=/home/rakesh-elk ; USER=root ; COMMAND=/bin/su
+Jan 11 17:56:07 rakeshelk-VirtualBox sudo: pam_unix(sudo:session): session opened for user root by rakesh-elk(uid=0)
+Jan 11 17:56:07 rakeshelk-VirtualBox su[2711]: Successful su for root by root
+Jan 11 17:56:07 rakeshelk-VirtualBox su[2711]: + /dev/pts/0 root:root
+Jan 11 17:56:07 rakeshelk-VirtualBox su[2711]: pam_unix(su:session): session opened for user root by rakesh-elk(uid=0)
+Jan 11 17:56:07 rakeshelk-VirtualBox su[2711]: pam_systemd(su:session): Cannot create session: Already running in a session
+Jan 11 17:56:09 rakeshelk-VirtualBox dbus-daemon[574]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Jan 11 17:56:57 rakeshelk-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 11 17:56:57 rakeshelk-VirtualBox pkexec[2821]: rakesh-elk: Executing command [USER=root] [TTY=unknown] [CWD=/home/rakesh-elk] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 11 17:58:27 rakeshelk-VirtualBox sshd[992]: Received SIGHUP; restarting.
+Jan 11 17:58:27 rakeshelk-VirtualBox sshd[992]: Server listening on 0.0.0.0 port 22.
+Jan 11 17:58:27 rakeshelk-VirtualBox sshd[992]: Server listening on :: port 22.
+Jan 11 17:58:28 rakeshelk-VirtualBox sshd[992]: Received SIGHUP; restarting.
+Jan 11 17:58:28 rakeshelk-VirtualBox sshd[992]: Server listening on 0.0.0.0 port 22.
+Jan 11 17:58:28 rakeshelk-VirtualBox sshd[992]: Server listening on :: port 22.
+Jan 11 18:17:01 rakeshelk-VirtualBox CRON[4529]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 18:17:01 rakeshelk-VirtualBox CRON[4529]: pam_unix(cron:session): session closed for user root
+Jan 11 18:21:35 rakeshelk-VirtualBox gdm-password]: gkr-pam: unlocked login keyring
+Jan 11 18:21:44 rakeshelk-VirtualBox sshd[992]: Received SIGHUP; restarting.
+Jan 11 18:21:44 rakeshelk-VirtualBox sshd[992]: Server listening on 0.0.0.0 port 22.
+Jan 11 18:21:44 rakeshelk-VirtualBox sshd[992]: Server listening on :: port 22.
+Jan 11 18:21:44 rakeshelk-VirtualBox sshd[992]: Received SIGHUP; restarting.
+Jan 11 18:21:44 rakeshelk-VirtualBox sshd[992]: Server listening on 0.0.0.0 port 22.
+Jan 11 18:21:44 rakeshelk-VirtualBox sshd[992]: Server listening on :: port 22.
+Jan 11 19:17:01 rakeshelk-VirtualBox CRON[5126]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 19:17:01 rakeshelk-VirtualBox CRON[5126]: pam_unix(cron:session): session closed for user root
+Jan 11 20:17:01 rakeshelk-VirtualBox CRON[5274]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 20:17:01 rakeshelk-VirtualBox CRON[5274]: pam_unix(cron:session): session closed for user root
+Jan 11 21:17:01 rakeshelk-VirtualBox CRON[5318]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 21:17:01 rakeshelk-VirtualBox CRON[5318]: pam_unix(cron:session): session closed for user root
+Jan 11 22:17:01 rakeshelk-VirtualBox CRON[5487]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 22:17:01 rakeshelk-VirtualBox CRON[5487]: pam_unix(cron:session): session closed for user root
+Jan 11 23:17:01 rakeshelk-VirtualBox CRON[5708]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 11 23:17:01 rakeshelk-VirtualBox CRON[5708]: pam_unix(cron:session): session closed for user root
+Jan 12 00:17:01 rakeshelk-VirtualBox CRON[6082]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 00:17:01 rakeshelk-VirtualBox CRON[6082]: pam_unix(cron:session): session closed for user root
+Jan 12 01:17:01 rakeshelk-VirtualBox CRON[6279]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 01:17:01 rakeshelk-VirtualBox CRON[6279]: pam_unix(cron:session): session closed for user root
+Jan 12 02:17:01 rakeshelk-VirtualBox CRON[6459]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 02:17:01 rakeshelk-VirtualBox CRON[6459]: pam_unix(cron:session): session closed for user root
+Jan 12 02:23:01 rakeshelk-VirtualBox CRON[6491]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 02:23:01 rakeshelk-VirtualBox CRON[6491]: pam_unix(cron:session): session closed for user root
+Jan 12 03:17:01 rakeshelk-VirtualBox CRON[6715]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 03:17:01 rakeshelk-VirtualBox CRON[6715]: pam_unix(cron:session): session closed for user root
+Jan 12 04:17:01 rakeshelk-VirtualBox CRON[6865]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 04:17:01 rakeshelk-VirtualBox CRON[6865]: pam_unix(cron:session): session closed for user root
+Jan 12 05:17:01 rakeshelk-VirtualBox CRON[6913]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 05:17:01 rakeshelk-VirtualBox CRON[6913]: pam_unix(cron:session): session closed for user root
+Jan 12 06:17:01 rakeshelk-VirtualBox CRON[6983]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 06:17:01 rakeshelk-VirtualBox CRON[6983]: pam_unix(cron:session): session closed for user root
+Jan 12 06:25:01 rakeshelk-VirtualBox CRON[6992]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 06:25:01 rakeshelk-VirtualBox CRON[6992]: pam_unix(cron:session): session closed for user root
+Jan 12 06:53:55 rakeshelk-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 12 06:53:55 rakeshelk-VirtualBox pkexec[20138]: rakesh-elk: Executing command [USER=root] [TTY=unknown] [CWD=/home/rakesh-elk] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 12 06:56:53 rakeshelk-VirtualBox pkexec: pam_unix(polkit-1:session): session opened for user root by (uid=1000)
+Jan 12 06:56:53 rakeshelk-VirtualBox pkexec[20664]: rakesh-elk: Executing command [USER=root] [TTY=unknown] [CWD=/home/rakesh-elk] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+Jan 12 07:17:02 rakeshelk-VirtualBox CRON[20739]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 07:17:02 rakeshelk-VirtualBox CRON[20739]: pam_unix(cron:session): session closed for user root
+Jan 12 07:30:01 rakeshelk-VirtualBox CRON[20750]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 07:30:01 rakeshelk-VirtualBox CRON[20750]: pam_unix(cron:session): session closed for user root
+Jan 12 08:17:01 rakeshelk-VirtualBox CRON[20787]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 08:17:01 rakeshelk-VirtualBox CRON[20787]: pam_unix(cron:session): session closed for user root
+Jan 12 09:17:01 rakeshelk-VirtualBox CRON[20831]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 09:17:01 rakeshelk-VirtualBox CRON[20831]: pam_unix(cron:session): session closed for user root
+Jan 12 10:17:01 rakeshelk-VirtualBox CRON[20874]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 10:17:01 rakeshelk-VirtualBox CRON[20874]: pam_unix(cron:session): session closed for user root
+Jan 12 11:17:01 rakeshelk-VirtualBox CRON[20958]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 11:17:01 rakeshelk-VirtualBox CRON[20958]: pam_unix(cron:session): session closed for user root
+Jan 12 12:17:01 rakeshelk-VirtualBox CRON[21002]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 12:17:01 rakeshelk-VirtualBox CRON[21002]: pam_unix(cron:session): session closed for user root
+Jan 12 13:17:01 rakeshelk-VirtualBox CRON[21044]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 13:17:01 rakeshelk-VirtualBox CRON[21044]: pam_unix(cron:session): session closed for user root
+Jan 12 14:17:01 rakeshelk-VirtualBox CRON[21091]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 14:17:01 rakeshelk-VirtualBox CRON[21091]: pam_unix(cron:session): session closed for user root
+Jan 12 15:17:01 rakeshelk-VirtualBox CRON[21133]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 15:17:01 rakeshelk-VirtualBox CRON[21133]: pam_unix(cron:session): session closed for user root
+Jan 12 16:17:01 rakeshelk-VirtualBox CRON[21209]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 16:17:01 rakeshelk-VirtualBox CRON[21209]: pam_unix(cron:session): session closed for user root
+Jan 12 17:17:01 rakeshelk-VirtualBox CRON[21360]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 17:17:01 rakeshelk-VirtualBox CRON[21360]: pam_unix(cron:session): session closed for user root
+Jan 12 18:17:01 rakeshelk-VirtualBox CRON[21507]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 18:17:01 rakeshelk-VirtualBox CRON[21507]: pam_unix(cron:session): session closed for user root
+Jan 12 19:17:01 rakeshelk-VirtualBox CRON[21861]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 19:17:01 rakeshelk-VirtualBox CRON[21861]: pam_unix(cron:session): session closed for user root
+Jan 12 20:17:01 rakeshelk-VirtualBox CRON[22116]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 20:17:01 rakeshelk-VirtualBox CRON[22116]: pam_unix(cron:session): session closed for user root
+Jan 12 21:17:01 rakeshelk-VirtualBox CRON[22189]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 21:17:01 rakeshelk-VirtualBox CRON[22189]: pam_unix(cron:session): session closed for user root
+Jan 12 22:17:01 rakeshelk-VirtualBox CRON[22233]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 22:17:01 rakeshelk-VirtualBox CRON[22233]: pam_unix(cron:session): session closed for user root
+Jan 12 23:17:01 rakeshelk-VirtualBox CRON[22281]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 23:17:01 rakeshelk-VirtualBox CRON[22281]: pam_unix(cron:session): session closed for user root

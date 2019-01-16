@@ -1,0 +1,18 @@
+[2019-01-16 11:43:04,033][INFO ][node                     ] [node-1] version[2.3.1], pid[1316], build[bd98092/2016-04-04T12:25:05Z]
+[2019-01-16 11:43:04,038][INFO ][node                     ] [node-1] initializing ...
+[2019-01-16 11:43:08,972][INFO ][plugins                  ] [node-1] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2019-01-16 11:43:09,212][INFO ][env                      ] [node-1] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [45.7gb], net total_space [58.6gb], spins? [possibly], types [ext4]
+[2019-01-16 11:43:09,214][INFO ][env                      ] [node-1] heap size [1015.6mb], compressed ordinary object pointers [true]
+[2019-01-16 11:43:09,214][WARN ][env                      ] [node-1] max file descriptors [65535] for elasticsearch process likely too low, consider increasing to at least [65536]
+[2019-01-16 11:43:17,118][INFO ][node                     ] [node-1] initialized
+[2019-01-16 11:43:17,120][INFO ][node                     ] [node-1] starting ...
+[2019-01-16 11:43:17,664][INFO ][transport                ] [node-1] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2019-01-16 11:43:17,783][INFO ][discovery                ] [node-1] my-app/zGB_Vl4sT3WqYb8kTjnvdg
+[2019-01-16 11:43:20,858][INFO ][cluster.service          ] [node-1] new_master {node-1}{zGB_Vl4sT3WqYb8kTjnvdg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2019-01-16 11:43:20,885][INFO ][http                     ] [node-1] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2019-01-16 11:43:20,886][INFO ][node                     ] [node-1] started
+[2019-01-16 11:43:21,435][INFO ][gateway                  ] [node-1] recovered [0] indices into cluster_state
+[2019-01-16 16:17:31,325][INFO ][node                     ] [node-1] stopping ...
+[2019-01-16 16:17:31,342][INFO ][node                     ] [node-1] stopped
+[2019-01-16 16:17:31,343][INFO ][node                     ] [node-1] closing ...
+[2019-01-16 16:17:31,349][INFO ][node                     ] [node-1] closed
