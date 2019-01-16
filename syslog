@@ -3210,3 +3210,19 @@ Jan 16 16:35:06 rakeshelk-VirtualBox gnome-shell[1766]: Removing a network devic
 Jan 16 16:35:06 rakeshelk-VirtualBox gnome-shell[2270]: Removing a network device that was not added
 Jan 16 16:35:06 rakeshelk-VirtualBox gnome-shell[1766]: Removing a network device that was not added
 Jan 16 16:35:06 rakeshelk-VirtualBox gnome-shell[2270]: Removing a network device that was not added
+Jan 16 16:44:49 rakeshelk-VirtualBox dhclient[1137]: DHCPREQUEST of 10.9.44.139 on enp0s3 to 10.9.44.1 port 67 (xid=0x191b70bc)
+Jan 16 16:44:49 rakeshelk-VirtualBox dhclient[1137]: DHCPACK of 10.9.44.139 from 10.9.44.1
+Jan 16 16:44:49 rakeshelk-VirtualBox NetworkManager[650]: <info>  [1547637289.7729] dhcp4 (enp0s3):   address 10.9.44.139
+Jan 16 16:44:49 rakeshelk-VirtualBox NetworkManager[650]: <info>  [1547637289.7732] dhcp4 (enp0s3):   plen 24 (255.255.255.0)
+Jan 16 16:44:49 rakeshelk-VirtualBox NetworkManager[650]: <info>  [1547637289.7733] dhcp4 (enp0s3):   gateway 10.9.44.1
+Jan 16 16:44:49 rakeshelk-VirtualBox NetworkManager[650]: <info>  [1547637289.7734] dhcp4 (enp0s3):   lease time 43200
+Jan 16 16:44:49 rakeshelk-VirtualBox NetworkManager[650]: <info>  [1547637289.7735] dhcp4 (enp0s3):   nameserver '8.8.8.8'
+Jan 16 16:44:49 rakeshelk-VirtualBox NetworkManager[650]: <info>  [1547637289.7736] dhcp4 (enp0s3):   nameserver '4.2.2.2'
+Jan 16 16:44:49 rakeshelk-VirtualBox NetworkManager[650]: <info>  [1547637289.7737] dhcp4 (enp0s3): state changed bound -> bound
+Jan 16 16:44:49 rakeshelk-VirtualBox dbus-daemon[550]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.12' (uid=0 pid=650 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Jan 16 16:44:49 rakeshelk-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan 16 16:44:49 rakeshelk-VirtualBox dbus-daemon[550]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Jan 16 16:44:49 rakeshelk-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan 16 16:44:49 rakeshelk-VirtualBox dhclient[1137]: bound to 10.9.44.139 -- renewal in 16212 seconds.
+Jan 16 16:44:49 rakeshelk-VirtualBox nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: new request (1 scripts)
+Jan 16 16:44:49 rakeshelk-VirtualBox nm-dispatcher: req:1 'dhcp4-change' [enp0s3]: start running ordered scripts...
